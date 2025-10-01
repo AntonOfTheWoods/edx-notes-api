@@ -16,6 +16,7 @@ gunicorn     # MIT
 meilisearch
 mysqlclient
 path.py
+psycopg[binary]
 PyJWT
 python-dateutil
 requests

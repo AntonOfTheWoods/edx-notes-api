@@ -300,6 +300,15 @@ psutil==7.1.3
     #   -r requirements/base.txt
     #   -r requirements/test.txt
     #   edx-django-utils
+psycopg[binary]==3.2.10
+    # via
+    #   -r requirements/base.txt
+    #   -r requirements/test.txt
+psycopg-binary==3.2.10
+    # via
+    #   -r requirements/base.txt
+    #   -r requirements/test.txt
+    #   psycopg
 pycodestyle==2.14.0
     # via -r requirements/quality.in
 pycparser==2.23
@@ -443,6 +452,7 @@ typing-extensions==4.15.0
     #   -r requirements/base.txt
     #   -r requirements/test.txt
     #   edx-opaque-keys
+    #   psycopg
     #   pydantic
     #   pydantic-core
     #   referencing
